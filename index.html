@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zixuan Wang | AI Researcher</title>
+    <meta name="description" content="Zixuan Wang - AI Researcher specializing in Reinforcement Learning, Uncertainty Quantification, and Medical AI at Vrije Universiteit Amsterdam">
+    <meta name="keywords" content="Zixuan Wang, AI, Machine Learning, Reinforcement Learning, Uncertainty Quantification, Medical AI, VU Amsterdam">
+    <meta name="author" content="Zixuan Wang">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Zixuan Wang | AI Researcher">
+    <meta property="og:description" content="AI Researcher specializing in Reinforcement Learning, Uncertainty Quantification, and Medical AI">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="profile.jpg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="nav-logo">Zixuan Wang</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#personal">Jazz 🐱</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="main">
+        <header class="hero" id="about">
+            <div class="hero-container">
+                <div class="hero-profile">
+                    <div class="profile-image">
+                        <img src="profile.jpg" alt="Zixuan Wang">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <h1>Zixuan Wang</h1>
+                    <p class="hero-pronouns">She/her or they/them</p>
+                    <p class="hero-subtitle">AI Researcher</p>
+                    <p class="hero-location">📍 Netherlands</p>
+                    
+                    <div class="hero-links">
+                        <a href="mailto:wangshary18@gmail.com" class="icon-link" title="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/zixuan-wang-9212b01b0" target="_blank" class="icon-link" title="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="icon-link" title="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section bio">
+            <div class="container">
+                <h2>Biography</h2>
+                <div class="bio-content">
+                    <p>I am a researcher in <strong>Artificial Intelligence</strong> completing my MSc in AI for Health at <a href="https://vu.nl" target="_blank">Vrije Universiteit Amsterdam</a>. My research focuses on developing <strong>trustworthy and interpretable AI systems</strong> for healthcare applications.</p>
+                    
+                    <h3>My Research</h3>
+                    <p>I specialize in <strong>Reinforcement Learning</strong> and <strong>Uncertainty Quantification</strong>. My thesis work investigates the correlation between epistemic and aleatoric uncertainty in offline RL, applying calibration and conformal prediction to achieve prediction intervals with better interpretability. I believe that AI systems should not just "wing it" — they should provide guarantees that deserve our trust.</p>
+                    
+                    <p>My research interests include:</p>
+                    <ul class="research-interests">
+                        <li>Offline Reinforcement Learning</li>
+                        <li>Uncertainty Quantification & Calibration</li>
+                        <li>Medical AI & Clinical Decision Support</li>
+                        <li>Multimodal Learning & Image Fusion</li>
+                        <li>Trustworthy & Explainable AI</li>
+                    </ul>
+
+                    <h3>Background</h3>
+                    <p>I hold dual master's degrees: one from <strong>VU Amsterdam</strong> (AI for Health, thesis grade 9.0/10.0) and one from the <strong>University of Electronic Science and Technology of China</strong> (UESTC). Previously, I earned my Bachelor's in Communication Engineering from Southwest Minzu University, where I was awarded the <strong>National Scholarship (Top 0.2%)</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section work-with-me">
+            <div class="container">
+                <h2>Interested in Collaboration?</h2>
+                <div class="collab-content">
+                    <p>I am always open to discussing research collaborations, especially in the areas of XAI, computer vision, reinforcement learning, uncertainty quantification, and medical AI. If you're working on related topics or are interested in potential collaborations, feel free to reach out.</p>
+                    <p><strong>Contact:</strong> <a href="mailto:wangshary18@gmail.com">wangshary18@gmail.com</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="publications">
+            <div class="container">
+                <h2>Publications</h2>
+                <div class="publications-list">
+                    <article class="pub-item">
+                        <div class="pub-year">2026</div>
+                        <div class="pub-content">
+                            <h3>Trusting Uncertainty: Correlation-Aware Combined Uncertainty Quantification for Offline Reinforcement Learning</h3>
+                            <p class="pub-authors"><strong>Z. Wang</strong>, F. Den Hengst, P. Hilders</p>
+                            <p class="pub-venue"><em>In Revising / Under Review</em></p>
+                        </div>
+                    </article>
+                    
+                    <article class="pub-item">
+                        <div class="pub-year">2022</div>
+                        <div class="pub-content">
+                            <h3>Explicit and Implicit Models in Infrared and Visible Image Fusion</h3>
+                            <p class="pub-authors"><strong>Z. Wang</strong>, B. Sun</p>
+                            <p class="pub-venue"><em>arXiv preprint arXiv:2206.09581</em></p>
+                            <a href="https://arxiv.org/abs/2206.09581" class="pub-link" target="_blank">[arXiv]</a>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <div class="pub-year">2018</div>
+                        <div class="pub-content">
+                            <h3>Design of Intelligent Reservation Parking Platform System Based on Microcontrollers</h3>
+                            <p class="pub-authors"><strong>Z. Wang</strong>, L. Long</p>
+                            <p class="pub-venue"><em>DEStech Transactions on Engineering and Technology Research, ECAME 2017</em></p>
+                            <a href="https://doi.org/10.12783/DTETR/ECAME2017/18373" class="pub-link" target="_blank">[DOI]</a>
+                        </div>
+                    </article>
+
+                    <h3 class="subsection-title">Patents</h3>
+                    
+                    <article class="pub-item">
+                        <div class="pub-year">2018</div>
+                        <div class="pub-content">
+                            <h3>Seats Selection Guidance System for the Visual Classroom</h3>
+                            <p class="pub-authors">G. Su, <strong>Z. Wang</strong>, D. Zeng, F. Wang, J. Yang</p>
+                            <p class="pub-venue"><em>Chinese Patent CN207946845U</em></p>
+                        </div>
+                    </article>
+
+                    <article class="pub-item">
+                        <div class="pub-year">2018</div>
+                        <div class="pub-content">
+                            <h3>Intelligent Bluetooth Remote Control Lock Based on 51 Single Chip</h3>
+                            <p class="pub-authors">Y. Deng, W. Xiang, <strong>Z. Wang</strong></p>
+                            <p class="pub-venue"><em>Chinese Patent CN206921174U</em></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="research">
+            <div class="container">
+                <h2>Research Projects</h2>
+                <div class="research-list">
+                    <article class="research-item">
+                        <div class="research-period">2025</div>
+                        <div class="research-content">
+                            <h3>Uncertainty Quantification for Offline Reinforcement Learning</h3>
+                            <p class="research-meta">Master Thesis, VU Amsterdam — Grade: 9.0/10.0</p>
+                            <p class="research-supervisors">Supervisors: Dr. Floris Den Hengst, Prof. Frank van Harmelen</p>
+                            <p>Investigating the correlation between epistemic and aleatoric uncertainty, applying calibration and conformal prediction for interpretable prediction intervals. Developing a framework based on deep ensemble and distributional reinforcement learning.</p>
+                        </div>
+                    </article>
+
+                    <article class="research-item">
+                        <div class="research-period">2024–25</div>
+                        <div class="research-content">
+                            <h3>Virtual Reality for Environmental Sustainability</h3>
+                            <p class="research-meta">Junior Researcher, IVM, VU Amsterdam</p>
+                            <p>Engineering and evaluating 2D serious-game pipelines versus interactive VR systems for food-storage training. Designing VR avatar-embodiment modules to measure effects on motivation and pro-environmental action adoption.</p>
+                        </div>
+                    </article>
+
+                    <article class="research-item">
+                        <div class="research-period">2023–24</div>
+                        <div class="research-content">
+                            <h3>Hyperparameter Tuning for Evolutionary Robotics</h3>
+                            <p class="research-meta">Computational Intelligence Lab, VU Amsterdam</p>
+                            <p class="research-supervisors">Supervisor: Prof. A.E. Eiben</p>
+                            <p>Hyperparameter tuning for neuroevolutionary algorithms. Deployed neuroevolutionary algorithms to simulate robots completing various tasks.</p>
+                        </div>
+                    </article>
+
+                    <article class="research-item">
+                        <div class="research-period">2021–23</div>
+                        <div class="research-content">
+                            <h3>Multimodal Image Fusion</h3>
+                            <p class="research-meta">Master Thesis, UESTC</p>
+                            <p class="research-supervisors">Supervisor: Dr. Bin Sun</p>
+                            <p>Investigated infrared and visible image fusion using DenseNet and Transformer architectures with self-attention fusion modules.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="teaching">
+            <div class="container">
+                <h2>Teaching</h2>
+                <div class="teaching-list">
+                    <article class="teaching-item">
+                        <div class="teaching-period">2025</div>
+                        <div class="teaching-content">
+                            <h3>Natural Language Processing</h3>
+                            <p>Teaching Assistant — MSc Artificial Intelligence, VU Amsterdam</p>
+                        </div>
+                    </article>
+                    <article class="teaching-item">
+                        <div class="teaching-period">2022</div>
+                        <div class="teaching-content">
+                            <h3>Task Payloads Data Fusion Theory and Application</h3>
+                            <p>Teaching Assistant — Master's Program, UESTC</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="cv">
+            <div class="container">
+                <h2>Curriculum Vitae</h2>
+                
+                <div class="cv-section">
+                    <h3>Education</h3>
+                    <div class="cv-list">
+                        <div class="cv-item">
+                            <span class="cv-period">2023–2025</span>
+                            <div class="cv-content">
+                                <strong>MSc Artificial Intelligence (AI for Health)</strong>, Vrije Universiteit Amsterdam<br>
+                                <span class="cv-note">Thesis grade: 9.0/10.0</span>
+                            </div>
+                        </div>
+                        <div class="cv-item">
+                            <span class="cv-period">2020–2023</span>
+                            <div class="cv-content">
+                                <strong>MSc Artificial Intelligence</strong>, University of Electronic Science and Technology of China
+                            </div>
+                        </div>
+                        <div class="cv-item">
+                            <span class="cv-period">2015–2019</span>
+                            <div class="cv-content">
+                                <strong>BEng Communication Engineering</strong>, Southwest Minzu University<br>
+                                <span class="cv-note">National Scholarship (Top 0.2%) • Outstanding Graduate (Top 10%)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Experience</h3>
+                    <div class="cv-list">
+                        <div class="cv-item">
+                            <span class="cv-period">2025</span>
+                            <div class="cv-content">
+                                <strong>Teaching Assistant</strong>, Natural Language Processing, VU Amsterdam
+                            </div>
+                        </div>
+                        <div class="cv-item">
+                            <span class="cv-period">2024–2025</span>
+                            <div class="cv-content">
+                                <strong>Junior Researcher</strong>, IVM, VU Amsterdam
+                            </div>
+                        </div>
+                        <div class="cv-item">
+                            <span class="cv-period">2024</span>
+                            <div class="cv-content">
+                                <strong>Data Scientist Intern</strong>, eDRV
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Selected Awards</h3>
+                    <div class="cv-list">
+                        <div class="cv-item">
+                            <span class="cv-period">2024</span>
+                            <div class="cv-content">MIT Summer School — Amsterdam is Hot</div>
+                        </div>
+                        <div class="cv-item">
+                            <span class="cv-period">2024</span>
+                            <div class="cv-content">Hack4Her Winner — Booking.com Challenge</div>
+                        </div>
+                        <div class="cv-item">
+                            <span class="cv-period">2017</span>
+                            <div class="cv-content">National Scholarship — Chinese Ministry of Education (Top 0.2%)</div>
+                        </div>
+                        <div class="cv-item">
+                            <span class="cv-period">2017</span>
+                            <div class="cv-content">ICM Honorable Mention — COMAP</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Programming & Development</h3>
+                    <div class="skills-inline">
+                        <span>Python</span>
+                        <span>C/C++</span>
+                        <span>C#</span>
+                        <span>R</span>
+                        <span>PyTorch</span>
+                        <span>TensorFlow</span>
+                        <span>Unity</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skills-inline">
+                        <span>Reinforcement Learning</span>
+                        <span>Deep Learning</span>
+                        <span>Multi-Agent Systems</span>
+                        <span>Agentic Architectures</span>
+                        <span>Uncertainty Quantification</span>
+                        <span>Calibration</span>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Healthcare AI</h3>
+                    <div class="skills-inline">
+                        <span>Medical Image Analysis</span>
+                        <span>Clinical Decision Support</span>
+                        <span>Healthcare Data Mining</span>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Research & Analysis</h3>
+                    <div class="skills-inline">
+                        <span>Data Analysis</span>
+                        <span>Statistics</span>
+                        <span>Experimental Design</span>
+                        <span>Scientific Writing</span>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Emerging Technologies</h3>
+                    <div class="skills-inline">
+                        <span>Virtual Reality</span>
+                        <span>Robotics</span>
+                        <span>Evolutionary Computing</span>
+                        <span>Multimodal Learning</span>
+                    </div>
+                </div>
+
+                <div class="cv-section">
+                    <h3>Optimization & Engineering</h3>
+                    <div class="skills-inline">
+                        <span>Prompt Engineering</span>
+                        <span>Hyperparameter Tuning</span>
+                        <span>Model Optimization</span>
+                        <span>System Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="personal">
+            <div class="container">
+                <h2>Beyond Research</h2>
+                <div class="personal-content">
+                    <div class="cat-card">
+                        <div class="cat-image">
+                            <img src="jazz.jpg" alt="Jazz the cat">
+                        </div>
+                        <div class="cat-info">
+                            <h3>Meet Jazz 🐱</h3>
+                            <p class="cat-title">Feline Research Assistant</p>
+                            <p>Hello humans! I'm Jazz, Zixuan's feline research assistant. I've been doing this job for three months now, and I love it. My hourly wage is one can of food. I specialize in keyboard supervision, important paper weight distribution, and making sure my human takes regular nap breaks (I lead by example. btw, her mousepad is so comfortable it's perfect for sleeping, so I chewed through her mouse cord). When I'm not busy supervising research, you'll find me chasing the sun, or waiting for the sun (though that's a luxury in the Netherlands). 🐾</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Zixuan Wang</p>
+            <p class="footer-note">Amsterdam, The Netherlands</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
